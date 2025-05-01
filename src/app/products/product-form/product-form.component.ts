@@ -10,7 +10,8 @@ import { FormUtilsService } from './../../shared/form/form-utils.service';
 @Component({
   selector: 'app-product-form',
   templateUrl: './product-form.component.html',
-  styleUrls: ['./product-form.component.scss']
+  styleUrls: ['./product-form.component.scss'],
+  standalone: false
 })
 export class ProductFormComponent {
 

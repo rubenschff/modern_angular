@@ -7,7 +7,8 @@ import { ProductsService } from '../products.service';
 @Component({
   selector: 'app-products-list',
   templateUrl: './products-list.component.html',
-  styleUrls: ['./products-list.component.scss']
+  styleUrls: ['./products-list.component.scss'],
+  standalone: false
 })
 export class ProductsListComponent {
 

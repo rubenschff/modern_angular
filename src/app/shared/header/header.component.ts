@@ -1,11 +1,12 @@
 import { CartService } from './../../cart/cart.service';
-import { Component } from '@angular/core';
+import { Component,  } from '@angular/core';
 import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+  styleUrls: ['./header.component.scss'],
+  standalone: false
 })
 export class HeaderComponent {
 
